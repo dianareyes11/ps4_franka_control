@@ -18,13 +18,14 @@ setup(
     zip_safe=True,
     maintainer='Diana',
     maintainer_email='diana@example.com',
-    description='PS4 controller interface for Franka Panda robot arm using MoveIt Servo',
+    description='PS4 controller interface for Franka Panda robot arm using MoveIt Servo for real-time control',
     license='MIT',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
             'ps4_controller_node = ps4_franka_control.ps4_controller_node:main',
             'gripper_controller_node = ps4_franka_control.gripper_controller_node:main',
+            'unified_ps4_franka_control = ps4_franka_control.unified_ps4_franka_control:main',
         ],
     },
 )
