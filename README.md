@@ -86,7 +86,7 @@ source install/setup.bash
 ### Terminal A — Start Franka + MoveIt
 Launch your lab’s Franka bringup (real or sim) and your MoveIt configuration.
 
-✅ Goal: robot is visible in RViz and MoveIt is running.
+Goal: robot is visible in RViz and MoveIt is running.
 
 ### Terminal B — Start MoveIt Servo
 Start Servo using your MoveIt configuration (launch varies by lab).
